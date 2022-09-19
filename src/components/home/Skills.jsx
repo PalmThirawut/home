@@ -38,7 +38,9 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
             title="Technical Skills"
           >
             <Row className="pt-3 px-1">
-              <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
+              <SkillsTab skills={hardSkills} 
+              isScrolled={isScrolled} 
+              />
             </Row>
           </Tab>
           <Tab
@@ -47,7 +49,9 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
             title="Soft Skills"
           >
             <Row className="pt-3 px-1">
-              <SkillsTab skills={softSkills} isScrolled={isScrolled} />
+              <SkillsTab skills={softSkills} 
+              isScrolled={isScrolled} 
+              />
             </Row>
           </Tab>
         </Tabs>
